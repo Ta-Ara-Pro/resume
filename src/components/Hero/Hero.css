@@ -1,0 +1,101 @@
+/* CSS for Hero section */
+.Hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.Hero img {
+    margin-top: 150px;
+    border-radius: 50%;
+    width: 300px; /* Adjust width for responsiveness */
+    max-width: 100%; /* Ensure image doesn't exceed its container */
+}
+
+.Hero h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.Hero h1 span {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Hero p {
+    width: 60%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.hero-action .hero-connet{
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    padding: 20px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.hero-action .hero-resume {
+    padding: 20px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.hero-action .hero-resume {
+    border: 2px solid #FFF;
+}
+
+.hero-action .hero-connet:hover {
+    border: 2px solid white;
+}
+
+.hero-action .hero-resume:hover {
+    border-color: #B415FF;
+}
+
+@media only screen and (max-width: 768px) {
+    .Hero img {
+        margin-top: 80px;
+        width: 200px;
+    }
+
+    .Hero h1 {
+        width: 90%;
+        font-size: 50px;
+    }
+
+    .Hero p {
+        width: 80%;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .hero-action {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    .hero-action .hero-connet,
+    .hero-action .hero-resume {
+        padding: 15px 25px;
+        border-radius: 30px;
+    }
+}

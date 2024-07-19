@@ -1,0 +1,293 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+} 
+.about-title{
+    position: relative;
+}
+.about-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.about-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.about-section{
+    display: flex;
+    gap: 80px;
+}
+.about-left img{
+    border-radius: 5px;
+    width: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.about-para{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.about-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-skill{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: 0.3s;
+}
+.about-skill p{
+    min-width: 150px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.about-skill hr{
+    outline: none;
+    border: none;
+    height: 50%;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%,#B415FF 106.28%);
+}
+.about-achievments{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.about-achievment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+.about-achievment h1{
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(264deg, #DF8908 50.41%,#B415FF 90.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-achievment p{
+    font-size: 22px;
+    font-weight: 500;
+}.about-skill:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.about-achievment:hover{
+    transform: scale(1.12);
+    transition:0.5s;
+}
+@media(max-width:768px){
+    /* Updated CSS for .about section */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; /* Adjusted gap */
+    margin: 50px 20px; /* Adjusted margin */
+}
+
+.about-title {
+    position: relative;
+    text-align: center; /* Centered title */
+}
+
+.about-title h1 {
+    font-size: 50px; /* Reduced font size */
+    font-weight: 600;
+    margin: 0; /* Removed padding */
+}
+
+.about-title img {
+    position: absolute;
+    bottom: 0;
+    right: -20px; /* Adjusted position */
+    width: 100px; /* Reduced width */
+    z-index: -1;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column; /* Changed to column layout on mobile */
+    align-items: center;
+    gap: 40px; /* Adjusted gap */
+}
+
+.about-left img {
+    border-radius: 5px;
+    max-width: 100%; /* Made image responsive */
+    margin-top: 20px;
+    margin-right: 0; /* Removed right margin */
+}
+
+.about-para,
+.about-skills,
+.about-achievments {
+    width: 100%; /* Adjusted width */
+    max-width: 600px; /* Added max-width */
+}
+
+.about-skill {
+    display: flex;
+    gap: 20px; /* Adjusted gap */
+    align-items: center;
+    transition: 0.3s;
+    padding: 10px; /* Added padding */
+}
+
+.about-skill p {
+    flex: 1; /* Let paragraph take remaining space */
+    font-size: 20px; /* Reduced font size */
+    font-weight: 500;
+    margin: 0; /* Removed default margin */
+}
+
+/* Updated CSS for .about section */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; /* Adjusted gap */
+    margin: 50px 20px; /* Adjusted margin */
+}
+
+.about-title {
+    position: relative;
+    text-align: center; /* Centered title */
+}
+
+.about-title h1 {
+    font-size: 50px; /* Reduced font size */
+    font-weight: 600;
+    margin: 0; /* Removed padding */
+}
+
+.about-title img {
+    position: absolute;
+    bottom: 0;
+    right: -20px; /* Adjusted position */
+    width: 100px; /* Reduced width */
+    z-index: -1;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column; /* Changed to column layout on mobile */
+    align-items: center;
+    gap: 40px; /* Adjusted gap */
+}
+
+.about-left img {
+
+    display: none;
+    
+}
+
+.about-para,
+.about-skills,
+.about-achievments {
+    width: 100%; /* Adjusted width */
+    max-width: 600px; /* Added max-width */
+}
+
+.about-skill {
+    display: flex;
+    gap: 20px; /* Adjusted gap */
+    align-items: center;
+    transition: 0.3s;
+    padding: 10px; /* Added padding */
+}
+
+.about-skill p {
+    flex: 1; /* Let paragraph take remaining space */
+    font-size: 20px; /* Reduced font size */
+    font-weight: 500;
+    margin: 0; /* Removed default margin */
+}
+
+.about-skill hr {
+    flex: 1; /* Let HR take remaining space */
+    height: 3px; /* Adjusted height */
+    border-radius: 2px; /* Adjusted border-radius */
+    background: linear-gradient(264deg, #DF8908 -5.09%,#B415FF 106.28%);
+}
+
+.about-achievements {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.about-achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    gap: 10px;
+    transition: 0.5s;
+    padding: 20px; /* Added padding */
+    
+}
+
+
+.about-achievment h1 {
+    font-size: 40px; /* Reduced font size */
+    font-weight: 700;
+    color: linear-gradient(264deg, #DF8908 50.41%,#B415FF 90.25%);
+}
+
+.about-achievment p {
+    font-size: 18px; /* Reduced font size */
+    font-weight: 500;
+}
+
+.about-skill:hover,
+.about-achievment:hover {
+    transform: scale(1.05);
+}
+
+.about-achievment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+    padding: 20px; /* Added padding */
+}
+
+.about-achievment h1 {
+    font-size: 40px; /* Reduced font size */
+    font-weight: 700;
+}
+
+.about-achievment p {
+    font-size: 18px; /* Reduced font size */
+    font-weight: 500;
+}
+
+.about-skill:hover,
+.about-achievment:hover {
+    transform: scale(1.05);
+}
+
+}

@@ -1,0 +1,108 @@
+/* CSS for Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px; /* Adjusted padding */
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    gap: 60px;
+    justify-content: row;
+   
+}
+
+.nav-connect {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #ffffff;
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-menu li img {
+    display: flex;
+    margin: auto;
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-mob-close {
+    display: none;
+}
+
+.nav-mob-open {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 10px; /* Adjusted padding */
+    }
+
+    .nav-connect {
+        display: none;
+    }
+
+    .nav-mob-open {
+        display: block;
+        position: fixed;
+        right: 20px;
+        top: 20px;
+        z-index: 3;
+    }
+
+    .nav-mob-close {
+        display: block;
+        position: fixed;
+        right: 20px;
+        top: 20px;
+        z-index: 4; /* Higher z-index for close button */
+    }
+
+    .nav-menu {
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        gap: 30px;
+        background-color: #1F0016;
+        width: 80%;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -80%; /* Adjusted initial position */
+    }
+
+    .nav-menu.show {
+        right: 0;
+    }
+
+    .nav-menu li {
+        font-size: 30px;
+        padding: 10px 20px;
+        gap: 20px;
+    }
+}

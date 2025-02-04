@@ -1,0 +1,98 @@
+{
+    "Home": "Home",
+    "About Me": "About Me",
+    "Services": "Services",
+    "Portfolio": "Portfolio",
+    "Contact": "Contact",
+    "Change Language": "Change Language",
+    "English": "English",
+    "Persian": "Persian",
+
+    "I'm": "I'm",
+    "frontend developer based in Iran.": "frontend developer based in Iran.",
+    "I am the dude who wants to act effective in a simple manner": "I am the dude who wants to act effective in a simple manner",
+    "Connect With Me": "Connect With Me",
+    "My Resume": "My Resume",
+
+    "About Me": "About Me",
+    "I am an enthusiast Frontend Developer. I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.": "I am an enthusiast Frontend Developer. I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.",
+    "My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.": "My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.",
+    "HTML & CSS": "HTML & CSS",
+    "React JS": "React JS",
+    "JavaScript": "JavaScript",
+    "NEXT JS": "NEXT JS",
+    "YEARS OF EXPERIENCE": "YEARS OF EXPERIENCE",
+    "PROJECTS COMPLETED": "PROJECTS COMPLETED",
+    "HAPPY CLIENTS": "HAPPY CLIENTS",
+
+    "My Services": "My Services",
+  "Read More": "Read More",
+  "Read Less": "Read Less",
+  "Web Development": "Web Development",
+  "I create responsive and high-performing websites tailored to client needs.": "I create responsive and high-performing websites tailored to client needs.",
+  "UI/UX Design": "UI/UX Design",
+  "I design visually appealing and user-friendly interfaces that enhance user experience.": "I design visually appealing and user-friendly interfaces that enhance user experience.",
+  "SEO Optimization": "SEO Optimization",
+  "I help optimize websites to improve search engine rankings and increase traffic.": "I help optimize websites to improve search engine rankings and increase traffic.",
+
+  "Frontend": "Frontend",
+  "Dynamic and detail-oriented front-end developer with expertise in HTML, CSS, JavaScript, and responsive design. Adept at creating engaging, user-friendly interfaces and optimizing web performance. Committed to delivering high-quality code and innovative solutions to enhance user experience.": "Dynamic and detail-oriented front-end developer with expertise in HTML, CSS, JavaScript, and responsive design. Adept at creating engaging, user-friendly interfaces and optimizing web performance. Committed to delivering high-quality code and innovative solutions to enhance user experience.",
+  "Backend": "Backend",
+  "Skilled and dedicated backend developer with proficiency in Java and RESTful APIs. Experienced in building robust, scalable server-side applications and ensuring seamless data integration. Passionate about optimizing performance and delivering reliable, high-quality solutions to support complex business needs.": "Skilled and dedicated backend developer with proficiency in Java and RESTful APIs. Experienced in building robust, scalable server-side applications and ensuring seamless data integration. Passionate about optimizing performance and delivering reliable, high-quality solutions to support complex business needs.",
+  "Social Media Application Development": "Social Media Application Development",
+  "Accomplished and creative developer with a strong background in building social media applications. Proficient in designing and implementing features that enhance user engagement and interaction. Experienced in leveraging modern frameworks and APIs to deliver seamless, scalable, and high-performance social networking solutions.": "Accomplished and creative developer with a strong background in building social media applications. Proficient in designing and implementing features that enhance user engagement and interaction. Experienced in leveraging modern frameworks and APIs to deliver seamless, scalable, and high-performance social networking solutions.",
+  "Dashboard Development": "Dashboard Development",
+  "Experienced and innovative developer specializing in dashboard creation with proficiency in data visualization tools and technologies. Skilled in transforming complex datasets into intuitive, interactive dashboards to drive informed decision-making. Committed to delivering user-friendly, insightful solutions that enhance business intelligence and performance.": "Experienced and innovative developer specializing in dashboard creation with proficiency in data visualization tools and technologies. Skilled in transforming complex datasets into intuitive, interactive dashboards to drive informed decision-making. Committed to delivering user-friendly, insightful solutions that enhance business intelligence and performance.",
+  "Landing page": "Landing page",
+  "Creating a landing page is a crucial skill for any web developer, as it serves as the first point of interaction between a business and its potential customers. A well-designed landing page can capture attention, convey key messages, and drive conversions.": "Creating a landing page is a crucial skill for any web developer, as it serves as the first point of interaction between a business and its potential customers. A well-designed landing page can capture attention, convey key messages, and drive conversions.",
+
+  "My latest work": "My latest work",
+  "Facilities and Technologies:": "Facilities and Technologies:",
+  "Review": "Review",
+  "Show More": "Show More",
+
+    "Using React with TypeScript improves type safety and code quality, while Vite offers fast development with instant hot module replacement. Tailwind CSS provides customizable styling, and Lucide React enhances UI with elegant icons. Appwrite simplifies backend tasks with ready-to-use APIs, and Zod ensures data integrity and type safety through schema validation.": "Using React with TypeScript improves type safety and code quality, while Vite offers fast development with instant hot module replacement. Tailwind CSS provides customizable styling, and Lucide React enhances UI with elegant icons. Appwrite simplifies backend tasks with ready-to-use APIs, and Zod ensures data integrity and type safety through schema validation.",
+  
+    "Using React and React DOM together allows for efficient and flexible component-based development. React Scripts simplifies the setup of a React application with a standard configuration, while Web Vitals helps measure and optimize performance. Emotion React and Emotion Styled provide powerful and flexible styling solutions with CSS-in-JS, enhancing the styling process. MUI (Material-UI) Icons and Material components offer a comprehensive set of customizable and accessible UI components and icons. React Icons provide a wide range of commonly used icons, making it easy to integrate visual elements into the application.": "Using React and React DOM together allows for efficient and flexible component-based development. React Scripts simplifies the setup of a React application with a standard configuration, while Web Vitals helps measure and optimize performance. Emotion React and Emotion Styled provide powerful and flexible styling solutions with CSS-in-JS, enhancing the styling process. MUI (Material-UI) Icons and Material components offer a comprehensive set of customizable and accessible UI components and icons. React Icons provide a wide range of commonly used icons, making it easy to integrate visual elements into the application.",
+  
+    "Using React and React DOM together allows for efficient and flexible component-based development. Lucide React enhances the UI with a collection of beautifully designed icons. TypeScript type definitions for React and React DOM provide type safety, improving code quality. Autoprefixer ensures CSS compatibility across different browsers by automatically adding vendor prefixes. PostCSS offers powerful CSS processing with JavaScript plugins, while Tailwind CSS provides a utility-first framework for highly customizable styling. Vite, a fast and modern build tool, enhances development with instant hot module replacement.": "Using React and React DOM together allows for efficient and flexible component-based development. Lucide React enhances the UI with a collection of beautifully designed icons. TypeScript type definitions for React and React DOM provide type safety, improving code quality. Autoprefixer ensures CSS compatibility across different browsers by automatically adding vendor prefixes. PostCSS offers powerful CSS processing with JavaScript plugins, while Tailwind CSS provides a utility-first framework for highly customizable styling. Vite, a fast and modern build tool, enhances development with instant hot module replacement.",
+  
+    "Using React provides efficient and flexible component-based development. Framer Motion adds robust animation capabilities to React components, enabling smooth and complex animations. React Anchor Link Smooth Scroll facilitates smooth scrolling to anchors within the page, improving navigation. TypeScript type definitions for React and React Anchor Link Smooth Scroll ensure type safety and better development experience. Autoprefixer ensures CSS compatibility across different browsers by adding vendor prefixes. PostCSS provides powerful CSS processing with JavaScript plugins, while Tailwind CSS offers a utility-first framework for customizable styling. Prettier enforces consistent code formatting, improving code readability and maintainability. Vite, a fast and modern build tool, enhances development with instant hot module replacement.": "Using React provides efficient and flexible component-based development. Framer Motion adds robust animation capabilities to React components, enabling smooth and complex animations. React Anchor Link Smooth Scroll facilitates smooth scrolling to anchors within the page, improving navigation. TypeScript type definitions for React and React Anchor Link Smooth Scroll ensure type safety and better development experience. Autoprefixer ensures CSS compatibility across different browsers by adding vendor prefixes. PostCSS provides powerful CSS processing with JavaScript plugins, while Tailwind CSS offers a utility-first framework for customizable styling. Prettier enforces consistent code formatting, improving code readability and maintainability. Vite, a fast and modern build tool, enhances development with instant hot module replacement.",
+  
+
+  "My Collaborations": "My Collaborations",
+  "As a web developer, I have worked on many different projects, gaining experience in both front-end and back-end development. Collaborating with various teams, I have helped create user-friendly websites and applications. My passion for coding and problem-solving keeps me motivated to find innovative solutions and stay current with industry trends.": "As a web developer, I have worked on many different projects, gaining experience in both front-end and back-end development. Collaborating with various teams, I have helped create user-friendly websites and applications. My passion for coding and problem-solving keeps me motivated to find innovative solutions and stay current with industry trends.",
+  "❮": "❮",
+  "❯": "❯",
+
+"Here is my latest collaboration as a frontend developer, building a full-option dashboard for a real estate": "Here is my latest collaboration as a frontend developer, building a full-option dashboard for a real estate",
+    "In this project, I utilized Material UI for its comprehensive React components and Tailwind CSS for its utility-first styling approach, combining the strengths of both to create a visually appealing and highly functional frontend.": "In this project, I utilized Material UI for its comprehensive React components and Tailwind CSS for its utility-first styling approach, combining the strengths of both to create a visually appealing and highly functional frontend.",
+    "Frontend development project collaboration on a professional, well-designed dashboard for a food delivery and marketing initiative based in Austria.": "Frontend development project collaboration on a professional, well-designed dashboard for a food delivery and marketing initiative based in Austria.",
+    "In this project, I leveraged Material UI to efficiently implement robust React components, ensuring consistency and a professional look. Additionally, I employed Tailwind CSS for its utility-first approach, enabling rapid and responsive styling. This combination allowed me to craft a frontend that is both visually stunning and highly functional.": "In this project, I leveraged Material UI to efficiently implement robust React components, ensuring consistency and a professional look. Additionally, I employed Tailwind CSS for its utility-first approach, enabling rapid and responsive styling. This combination allowed me to craft a frontend that is both visually stunning and highly functional.",
+
+
+    "Get in touch": "Get in touch",
+    "Let's talk": "Let's talk",
+    "I'm currently avaliable to new project, so feel free to send me massage about anything that you want to work on.": "I'm currently avaliable to new project, so feel free to send me massage about anything that you want to work on.",
+    "You'r Name": "You'r Name",
+    "Enter you'r name": "Enter you'r name",
+    "you'r email": "you'r email",
+    "Enter you'r email": "Enter you'r email",
+    "Write you'r message here": "Write you'r message here",
+    "Enter you'r message": "Enter you'r message",
+    "Submit now": "Submit now",
+    "tahereh.q.ara@gmail.com": "tahereh.q.ara@gmail.com",
+    "09118171648": "09118171648",
+    "Iran": "Iran",
+
+    "I am a frontend developer from Iran": "I am a frontend developer from Iran",
+  "Enter your email": "Enter your email",
+  "Subscribe": "Subscribe",
+  "TA_ARA. All rights reserved.": "TA_ARA. All rights reserved.",
+  "Terms of Services": "Terms of Services",
+  "Privacy Policy": "Privacy Policy",
+  "Connect with me": "Connect with me"
+   
+  
+  }
+  

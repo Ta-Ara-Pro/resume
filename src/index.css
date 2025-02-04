@@ -1,3 +1,21 @@
+@font-face { 
+  font-family: 'Sahel';
+  src: url('/public/fonts/Sahel.woff2') format('woff2'),
+       url('/public/fonts/Sahel.woff') format('woff'),
+       url('/public/fonts/Sahel.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Sahel';
+  src: url('/public/fonts/Sahel-Bold.woff2') format('woff2'),
+       url('/public/fonts/Sahel-Bold.woff') format('woff'),
+       url('/public/fonts/Sahel-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -7,4 +25,16 @@ body{
   background: #50495c;
   color: rgb(231, 225, 236);
   font-family: 'outfit';
+  overflow-x: hidden;
+  font-family: 'Sahel', sans-serif;
+}
+
+html[dir="rtl"] {
+  text-align: right;
+  direction: rtl;
+}
+
+html[dir="ltr"] {
+  text-align: left;
+  direction: ltr;
 }

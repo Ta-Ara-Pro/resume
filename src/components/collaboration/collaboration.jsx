@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
-import './collaboration.css';
+import './Collaboration.css';
 import theme_pattern from '../../assets/theme_pattern.svg';
 import collabs_data from '../data/mycollabs_data';
+import { useTranslation } from 'react-i18next';
 
 const Collaboration = () => {
+
+  const { t, i18n } = useTranslation()
+
+
   // Initialize state to store the current index for each collaboration
   const [currentIndices, setCurrentIndices] = useState(
     collabs_data.reduce((acc, _, index) => {
@@ -38,47 +43,43 @@ const Collaboration = () => {
 
   return (
     <div id="collaboration" className="mycollaboration">
-      <div className="mycollaboration-title">
-        <h1>My Collaborations</h1>
-        <img src={theme_pattern} alt="Theme pattern" />
-      </div>
-      <div className="intro">
-        <span>
-          As a web developer, I have worked on many different projects, gaining experience in both front-end and
-          back-end development. Collaborating with various teams, I have helped create user-friendly websites
-          and applications. My passion for coding and problem-solving keeps me motivated to find innovative
-          solutions and stay current with industry trends.
-        </span>
-      </div>
-
-      <div className="collabs">
-        {collabs_data.map((collab, collabIndex) => (
-          <div className="collab" key={collabIndex}>
-            <div className="exp">
-              <h1>{collab.proj_name}</h1>
-              <span>{collab.proj_desc}</span>
-            </div>
-            <div className="slider-container">
-              <button className="slider-button prev" onClick={() => handlePrev(collabIndex)}>❮</button>
-              <div className="slider-bar">
-                {[collab.proj_img1, collab.proj_img2, collab.proj_img3].map((img, imgIndex) =>
-                  img ? (
-                    <img
-                      key={imgIndex}
-                      className="img"
-                      src={img}
-                      alt={`image${imgIndex + 1}`}
-                      style={{ transform: `translateX(-${currentIndices[collabIndex] * 100}%)` }}
-                    />
-                  ) : null
-                )}
-              </div>
-              <button className="slider-button next" onClick={() => handleNext(collabIndex)}>❯</button>
-            </div>
-          </div>
-        ))}
-      </div>
+    <div className="mycollaboration-title">
+      <h1>{t('My Collaborations')}</h1>
+      <img src={theme_pattern} alt="Theme pattern" />
     </div>
+    <div className="intro">
+      <span>{t('As a web developer, I have worked on many different projects, gaining experience in both front-end and back-end development. Collaborating with various teams, I have helped create user-friendly websites and applications. My passion for coding and problem-solving keeps me motivated to find innovative solutions and stay current with industry trends.')}</span>
+    </div>
+  
+    <div className="collabs">
+      {collabs_data.map((collab, collabIndex) => (
+        <div className="collab" key={collabIndex}>
+          <div className="exp">
+            <h1>{t(collab.proj_name)}</h1>
+            <span>{t(collab.proj_desc)}</span>
+          </div>
+          <div className="slider-container">
+            <button className="slider-button prev" onClick={() => handlePrev(collabIndex)}>{t('❮')}</button>
+            <div className="slider-bar">
+              {[collab.proj_img1, collab.proj_img2, collab.proj_img3].map((img, imgIndex) =>
+                img ? (
+                  <img
+                    key={imgIndex}
+                    className="img"
+                    src={img}
+                    alt={`image${imgIndex + 1}`}
+                    style={{ transform: `translateX(-${currentIndices[collabIndex] * 100}%)` }}
+                  />
+                ) : null
+              )}
+            </div>
+            <button className="slider-button next" onClick={() => handleNext(collabIndex)}>{t('❯')}</button>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+  
   );
 }
 

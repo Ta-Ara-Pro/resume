@@ -6,6 +6,10 @@ import p3 from '../../assets/p3.png'
 import p4 from '../../assets/p4.png'
 import p5 from '../../assets/p5.png'
 import p6 from '../../assets/p6.png'
+import p7 from '../../assets/p7.png'
+import p8 from '../../assets/p8.png'
+import p9 from '../../assets/p9.png'
+import p10 from '../../assets/p10.png'
 
 
 const mywork_data = [
@@ -21,13 +25,13 @@ const mywork_data = [
     }, 
     {
         w_no:2,
-        w_name:"Web design",
-        w_img: p2,
-        w_web: 'https://pro-gram.vercel.app',
-        w_repo: 'https://github.com/Ta-Ara-Pro/Pro-Gram',
-        w_desc:['React','TypeScript', 'vite', 'tailwindcss', 'lucide-react','appwrite', 'zod'],
-        w_exp: 'Using React with TypeScript improves type safety and code quality, while Vite offers fast development with instant hot module replacement. Tailwind CSS provides customizable styling, and Lucide React enhances UI with elegant icons. Appwrite simplifies backend tasks with ready-to-use APIs, and Zod ensures data integrity and type safety through schema validation.'
-        ,w_exp_fa: 'استفاده از React با TypeScript ایمنی نوعی را بهبود می‌بخشد و کیفیت کد را افزایش می‌دهد، در حالی که Vite توسعه سریع را با جایگزینی سریع ماژول‌ها ارائه می‌دهد. Tailwind CSS استایل‌های قابل تنظیم را فراهم می‌کند و Lucide React ظاهر رابط کاربری را با آیکون‌های زیبا بهبود می‌بخشد. Appwrite کارهای بک‌اند را با APIهای آماده ساده می‌کند و Zod با اعتبارسنجی شِما یکپارچگی داده‌ها و ایمنی نوعی را تضمین می‌کند.',
+        w_name:"Xora",
+        w_img: p7,
+        w_web: 'https://xora-lan4v0.vercel.app/',
+        w_repo: 'https://github.com/Ta-Ara-Pro/lan-4-v0',
+        w_desc:['React', 'vite',  'tailwindcss', 'react-countup', 'react-scroll','react-slidedown'],
+        w_exp: 'Welcome to a dynamic and visually stunning landing page. Leveraging modern technologies like React and Vite, I built this page for optimal performance and scalability, while TailwindCSS ensured a clean and responsive design. To enhance user engagement, I integrated libraries such as react-countup for interactive animations, react-scroll for seamless navigation, and react-slidedown for smooth transitions. The landing page features essential sections, including a captivating Hero, a detailed Features overview, a flexible Pricing plan (monthly/yearly), a helpful FAQ, authentic Testimonials, and a Download Software section. I prioritized smooth animations, cool CSS gradients, and pixel-perfect design to ensure a flawless experience across all devices. By focusing on optimized performance and intuitive navigation, I delivered a fast, responsive, and user-friendly interface that showcases my expertise in frontend development. This project reflects my commitment to creating high-quality, visually appealing, and functional web applications.'
+        ,w_exp_fa: 'به یک صفحه لندینگ پویا و دیدنی خوش آمدید. با استفاده از فناوری‌های مدرن مانند React و Vite، این صفحه را برای عملکرد و مقیاس‌پذیری بهینه ساختم، در حالی که TailwindCSS طراحی تمیز و واکنش‌گرا را تضمین کرد. برای افزایش تعامل کاربر، کتابخانه‌هایی مانند react-countup برای انیمیشن‌های تعاملی، react-scroll برای پیمایش یکپارچه و react-slidedown برای انتقال‌های روان را ادغام کردم. این صفحه لندینگ شامل بخش‌های ضروری مانند یک هیرو جذاب، مرور دقیق ویژگی‌ها، یک طرح قیمت‌گذاری انعطاف‌پذیر (ماهانه/سالانه)، یک سوالات متداول مفید، نظرات کاربران معتبر و یک بخش دانلود نرم‌افزار است. من به انیمیشن‌های روان، گرادیان‌های زیبای CSS و طراحی پیکسل‌پرفکت اولویت دادم تا تجربه‌ای بی‌نقص در تمام دستگاه‌ها ایجاد کنم. با تمرکز بر عملکرد بهینه و ناوبری هوشمند، یک رابط کاربری سریع، واکنش‌گرا و کاربرپسند ارائه کردم که تخصص من در توسعه فرانت‌اند را به نمایش می‌گذارد. این پروژه نشان‌دهنده تعهد من به ایجاد برنامه‌های وب با کیفیت بالا، جذاب از نظر بصری و کاربردی است.',
     },
     {
         w_no:3,
@@ -45,7 +49,7 @@ const mywork_data = [
         w_img:p4,
         w_web: 'https://coding-website-landing-page.vercel.app/',
         w_repo: 'https://github.com/Ta-Ara-Pro/coding-website-Landing-page',
-        w_desc:['React','JavaScript', 'vite', 'lucide-react', 'postcss','tailwindcss', '@types/react', 'autoprefixer'],
+        w_desc:['React','JavaScript', 'vite', 'lucide-react', 'postcss','tailwindcss'],
         w_exp: 'Using React and React DOM together allows for efficient and flexible component-based development. Lucide React enhances the UI with a collection of beautifully designed icons. TypeScript type definitions for React and React DOM provide type safety, improving code quality. Autoprefixer ensures CSS compatibility across different browsers by automatically adding vendor prefixes. PostCSS offers powerful CSS processing with JavaScript plugins, while Tailwind CSS provides a utility-first framework for highly customizable styling. Vite, a fast and modern build tool, enhances development with instant hot module replacement.'
         ,w_exp_fa:"استفاده از React و React DOM امکان توسعه مؤثر و انعطاف‌پذیر مبتنی بر کامپوننت را فراهم می‌کند. React Scripts راه‌اندازی برنامه React را با پیکربندی استاندارد ساده می‌کند، در حالی که Web Vitals به اندازه‌گیری و بهینه‌سازی عملکرد کمک می‌کند. Emotion React و Emotion Styled راهکارهای قدرتمند و انعطاف‌پذیر استایل‌دهی با CSS-in-JS را ارائه می‌دهند و فرایند طراحی را بهبود می‌بخشند. آیکون‌ها و کامپوننت‌های Material-UI مجموعه‌ای کامل از کامپوننت‌های UI سفارشی‌پذیر و دسترس‌پذیر را ارائه می‌دهند. React Icons مجموعه‌ای گسترده از آیکون‌های پرکاربرد را فراهم می‌کند و ادغام عناصر بصری در برنامه را آسان می‌کند.",
     },
@@ -55,20 +59,50 @@ const mywork_data = [
         w_img:p5,
         w_web: 'https://gym-landing-liart.vercel.app/',
         w_repo: 'https://github.com/Ta-Ara-Pro/gym-landing',
-        w_desc:['React','TypeScript', 'vite', 'tailwindcss', 'postcss','prettier', 'autoprefixer', 'framer-motion', 'react-anchor-link-smooth-scroll','types/react'],
+        w_desc:['React','TypeScript', 'vite', 'tailwindcss', 'postcss','react-hook-form', 'framer-motion', 'react-anchor-link-smooth-scroll'],
         w_exp: 'Using React provides efficient and flexible component-based development. Framer Motion adds robust animation capabilities to React components, enabling smooth and complex animations. React Anchor Link Smooth Scroll facilitates smooth scrolling to anchors within the page, improving navigation. TypeScript type definitions for React and React Anchor Link Smooth Scroll ensure type safety and better development experience. Autoprefixer ensures CSS compatibility across different browsers by adding vendor prefixes. PostCSS provides powerful CSS processing with JavaScript plugins, while Tailwind CSS offers a utility-first framework for customizable styling. Prettier enforces consistent code formatting, improving code readability and maintainability. Vite, a fast and modern build tool, enhances development with instant hot module replacement.'
        ,w_exp_fa: "استفاده از React توسعه مبتنی بر کامپوننت را به صورت کارآمد و انعطاف‌پذیر فراهم می‌کند. Framer Motion قابلیت‌های قدرتمند انیمیشن را به کامپوننت‌های React اضافه می‌کند. React Anchor Link Smooth Scroll امکان پیمایش نرم به بخش‌های مختلف صفحه را فراهم می‌کند. TypeScript ایمنی نوعی را تضمین کرده و تجربه توسعه را بهبود می‌بخشد. Vite، به عنوان یک ابزار مدرن و سریع، توسعه را با جایگزینی سریع ماژول‌ها تسهیل می‌کند.",
   
     },
     {
         w_no:6,
-        w_name:"gym design",
+        w_name:"gpt-3",
         w_img:p6,
-        w_web: 'https://gym-landing-liart.vercel.app/',
-        w_repo: 'https://github.com/Ta-Ara-Pro/gym-landing',
-        w_desc:['React','TypeScript', 'vite', 'tailwindcss', 'postcss','prettier', 'autoprefixer', 'framer-motion', 'react-anchor-link-smooth-scroll','types/react'],
+        w_web: 'https://gpt3-lan7v0.vercel.app/',
+        w_repo: 'https://github.com/Ta-Ara-Pro/lan-7-v0',
+        w_desc:['React','react-scripts','CSS'],
+        w_exp: 'Welcome to the Modern UI/UX GPT-3 project, a sleek and modern web application built using React and react-script. This project demonstrates the power of React functional components and their reusability, alongside a clean and organized file and folder structure. I mastered essential CSS properties, including flexbox and grid, and applied the CSS BEM Model for scalable and maintainable styling. The design incorporates smooth animations, complex gradients, and precise media queries to ensure seamless responsiveness across all devices. Additionally, I gained hands-on experience in deploying websites to high-speed servers and setting up custom domain names. This project reflects my expertise in creating modern, responsive, and visually appealing web applications.'
+        ,w_exp_fa: "به پروژه Modern UI/UX GPT-3 خوش آمدید، یک برنامه وب مدرن و زیبا که با استفاده از React و react-script ساخته شده است. این پروژه قدرت کامپوننت‌های تابعی React و قابلیت استفاده مجدد آن‌ها را به همراه ساختار فایل و پوشه‌ای منظم نشان می‌دهد. من بر ویژگی‌های اساسی CSS مانند flexbox و grid مسلط شدم و از مدل BEM CSS برای ایجاد استایل‌های مقیاس‌پذیر و قابل نگهداری استفاده کردم. طراحی شامل انیمیشن‌های روان، گرادیان‌های پیچیده و رسپانسیو بودن کامل با استفاده از media queryها است. علاوه بر این، تجربه عملی در استقرار وب‌سایت‌ها بر روی سرورهای پرسرعت و تنظیم نام‌دامنه سفارشی را کسب کردم. این پروژه تخصص من در ایجاد برنامه‌های وب مدرن، واکنش‌گرا و جذاب را نشان می‌دهد.",
+    },
+    {
+        w_no:7,
+        w_name:"brain wave",
+        w_img:p8,
+        w_web: 'https://brainwave-lan5v0.vercel.app/',
+        w_repo: 'https://github.com/Ta-Ara-Pro/lan-5-v0',
+        w_desc:['React', 'vite', 'tailwindcss', 'postcss','react-just-parallax', 'scroll-lock'],
         w_exp: 'Using React provides efficient and flexible component-based development. Framer Motion adds robust animation capabilities to React components, enabling smooth and complex animations. React Anchor Link Smooth Scroll facilitates smooth scrolling to anchors within the page, improving navigation. TypeScript type definitions for React and React Anchor Link Smooth Scroll ensure type safety and better development experience. Autoprefixer ensures CSS compatibility across different browsers by adding vendor prefixes. PostCSS provides powerful CSS processing with JavaScript plugins, while Tailwind CSS offers a utility-first framework for customizable styling. Prettier enforces consistent code formatting, improving code readability and maintainability. Vite, a fast and modern build tool, enhances development with instant hot module replacement.'
-        ,w_exp_fa: "استفاده از React توسعه مبتنی بر کامپوننت را به صورت کارآمد و انعطاف‌پذیر فراهم می‌کند. Framer Motion قابلیت‌های قدرتمند انیمیشن را به کامپوننت‌های React اضافه می‌کند. React Anchor Link Smooth Scroll امکان پیمایش نرم به بخش‌های مختلف صفحه را فراهم می‌کند. TypeScript ایمنی نوعی را تضمین کرده و تجربه توسعه را بهبود می‌بخشد. Vite، به عنوان یک ابزار مدرن و سریع، توسعه را با جایگزینی سریع ماژول‌ها تسهیل می‌کند.",
+        ,w_exp_fa: "به یک صفحه لندینگ مدرن و پویا خوش آمدید که با استفاده از React، Vite، TailwindCSS و PostCSS برای عملکرد بهینه و طراحی واکنش‌گرا ساخته شده است. از react-just-parallax برای انیمیشن‌های پارالاکس جذاب و scroll-lock برای پیمایش روان استفاده کرده‌ام تا تجربه کاربری را بهبود بخشم. این صفحه شامل بخش‌های ضروری مانند هیرو، خدمات، ویژگی‌ها، نحوه استفاده، رودمپ، قیمت‌گذاری، هدر و فوتر است. ویژگی‌های کلیدی شامل افکت‌های پارالاکس با حرکت موس، اشکال پیچیده UI، ترندهای طراحی مدرن مانند بنتو گرید، گرادیان‌های زیبا و واکنش‌گرایی کامل در تمام دستگاه‌ها می‌شود. این پروژه بر معماری کد تمیز، قابلیت استفاده مجدد و نگهداری آسان تأکید دارد و تخصص من در ایجاد برنامه‌های وب جذاب و کاربرپسند را نشان می‌دهد.",
+    },
+    {
+        w_no:8,
+        w_name:"hoobank",
+        w_img:p9,
+        w_web: 'https://hoobank-lan6v0.vercel.app/',
+        w_repo: 'https://github.com/Ta-Ara-Pro/lan-6-v0',
+        w_desc:['React', 'vite', 'tailwindcss', 'postcss'],
+        w_exp: 'Welcome to a sleek and high-performance landing page built with React and Vite for fast and efficient development. Styled with TailwindCSS and enhanced with PostCSS, the design is clean, modern, and fully responsive. This project showcases my ability to create visually appealing and functional web applications with optimized performance and a focus on user experience.'
+        ,w_exp_fa: "به یک صفحه لندینگ زیبا و پرسرعت خوش آمدید که با استفاده از React و Vite برای توسعه سریع و کارآمد ساخته شده است. با بهره‌گیری از TailwindCSS و PostCSS، طراحی آن تمیز، مدرن و کاملاً واکنش‌گرا است. این پروژه توانایی من در ایجاد برنامه‌های وب جذاب و کاربردی با عملکرد بهینه و تمرکز بر تجربه کاربری را به نمایش می‌گذارد.",
+    },
+    {
+        w_no:9,
+        w_name:"tik note",
+        w_img:p10,
+        w_web: 'https://tik-note-min1v1.vercel.app/',
+        w_repo: 'https://github.com/Ta-Ara-Pro/min-1-notes-dash',
+        w_desc:['React', 'vite', 'react-hook-form', 'react-toastify','react-multi-date-picker','zustand'],
+        w_exp: 'This application is a practical tool for managing your personal notes, built with React, Vite, react-hook-form, react-toastify, react-multi-date-picker, and zustand, offering a seamless and responsive user experience. With this app, you can easily create, edit, save, and delete notes. Key features include user login for account management, local storage for data persistence without server connectivity, efficient note management for adding, editing, and deleting notes, advanced search to find notes by title or content, note filtering based on predefined options, and profile management to update usernames and passwords. This app makes organizing personal notes simpler and more efficient than ever.'
+        ,w_exp_fa: "به یک صفحه لندینگ زیبا و پرسرعت خوش آمدید که با استفاده از React و Vite برای توسعه سریع و کارآمد ساخته شده است. با بهره‌گیری از TailwindCSS و PostCSS، طراحی آن تمیز، مدرن و کاملاً واکنش‌گرا است. این پروژه توانایی من در ایجاد برنامه‌های وب جذاب و کاربردی با عملکرد بهینه و تمرکز بر تجربه کاربری را به نمایش می‌گذارد.",
     },
 ]
  

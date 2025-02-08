@@ -7,7 +7,7 @@ const Services_Data = [
     {
         s_no:"02",
         s_name:"Backend",
-        s_desc:"Skilled and dedicated backend developer with proficiency in Java and RESTful APIs. Experienced in building robust, scalable server-side applications and ensuring seamless data integration. Passionate about optimizing performance and delivering reliable, high-quality solutions to support complex business needs."
+        s_desc:"Skilled and dedicated backend developer with proficiency in JavaScript and RESTful APIs. Experienced in building robust, scalable server-side applications and ensuring seamless data integration. Passionate about optimizing performance and delivering reliable, high-quality solutions to support complex business needs."
     },
     {
         s_no:"03",

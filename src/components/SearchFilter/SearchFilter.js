@@ -6,8 +6,12 @@ import {
   resetFilters
 } from '../../redux/dataSlice';
 import './SearchFilter.css'
+import { useTranslation } from 'react-i18next';
 
 const SearchFilterComponent = () => {
+
+  const { t , i18n } = useTranslation()
+
   const dispatch = useDispatch();
   const searchQuery = useSelector((state) => state.data.searchQuery);
 
@@ -41,7 +45,7 @@ const SearchFilterComponent = () => {
         <div className='btn-container'>
           <div className='selectBox'>
             <div className='btn' onClick={() => toggleFilterMenu()}>
-              فیلتر ها
+             {t('Filters')}
             </div>
             <div className={`filter-drawer ${isfilterMenuOpen ? "show" : ""}`}>
               <div className='item1' onClick={() => handleFilterChange("")}>همه موارد</div>
@@ -80,7 +84,7 @@ const SearchFilterComponent = () => {
             </div>
 
           </div>
-          <button onClick={handleReset}>حذف فیلترها</button>
+          <button onClick={handleReset}>{t('Reset')}</button>
 
         </div>
 

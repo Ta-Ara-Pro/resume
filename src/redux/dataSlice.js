@@ -11,6 +11,7 @@ const isPersian = (text) => {
 const initialState = {
     originalData: data, // store unfilterd data
     filteredData: data,
+    limitedShowData: data.slice(0,4),
     searchQuery: '',
     filterCriteria: {},
     selectedLanguage: 'fa'

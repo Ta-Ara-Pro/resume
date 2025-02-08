@@ -15,13 +15,13 @@ import p10 from '../../assets/p10.png'
 const mywork_data = [
     {
         w_no:1,
-        w_name:"Web design",
+        w_name:"Pro gram",
         w_img: p1,
         w_web: 'https://pro-gram.vercel.app',
         w_repo: 'https://github.com/Ta-Ara-Pro/Pro-Gram',
         w_desc:['React','TypeScript', 'vite', 'tailwindcss', 'lucide-react','appwrite', 'zod'],
-        w_exp: 'Using React with TypeScript improves type safety and code quality, while Vite offers fast development with instant hot module replacement. Tailwind CSS provides customizable styling, and Lucide React enhances UI with elegant icons. Appwrite simplifies backend tasks with ready-to-use APIs, and Zod ensures data integrity and type safety through schema validation.'
-        ,w_exp_fa: 'استفاده از React با TypeScript ایمنی نوعی را بهبود می‌بخشد و کیفیت کد را افزایش می‌دهد، در حالی که Vite توسعه سریع را با جایگزینی سریع ماژول‌ها ارائه می‌دهد. Tailwind CSS استایل‌های قابل تنظیم را فراهم می‌کند و Lucide React ظاهر رابط کاربری را با آیکون‌های زیبا بهبود می‌بخشد. Appwrite کارهای بک‌اند را با APIهای آماده ساده می‌کند و Zod با اعتبارسنجی شِما یکپارچگی داده‌ها و ایمنی نوعی را تضمین می‌کند.',
+        w_exp: 'This social media application is built using a modern tech stack including React, TypeScript, Vite, TailwindCSS, Lucide-react, Appwrite, and Zod to deliver a robust, responsive, and user-friendly experience. React combined with TypeScript enhances type safety and code quality, while Vite ensures fast development with its quick module replacement. TailwindCSS provides customizable and responsive styling, and Lucide-react enhances the UI with beautiful icons. Appwrite simplifies backend tasks with ready-to-use APIs, and Zod ensures data integrity and type safety through schema validation. Key features of the app include the ability to create, edit, and delete posts, as well as save, like, and dislike posts, all within a fully responsive design that works seamlessly across devices. The app prioritizes performance, scalability, and a smooth user experience, making it a reliable platform for social interactions.'
+        ,w_exp_fa: 'این اپلیکیشن شبکه‌اجتماعی با استفاده از فناوری‌های مدرن مانند React، TypeScript، Vite، TailwindCSS، Lucide-react، Appwrite و Zod ساخته شده است تا تجربه‌ای قدرتمند، واکنش‌گرا و کاربرپسند ارائه دهد. React همراه با TypeScript ایمنی نوعی و کیفیت کد را بهبود می‌بخشد، در حالی که Vite با جایگزینی سریع ماژول‌ها، توسعه سریع را ممکن می‌کند. TailwindCSS استایل‌های قابل تنظیم و واکنش‌گرا را فراهم می‌کند و Lucide-react با آیکون‌های زیبا رابط کاربری را بهبود می‌بخشد. Appwrite با استفاده از APIهای آماده، کارهای بک‌اند را ساده می‌کند و Zod از طریق اعتبارسنجی شِما، یکپارچگی داده‌ها و ایمنی نوعی را تضمین می‌کند. ویژگی‌های کلیدی این اپلیکیشن شامل امکان ایجاد، ویرایش و حذف پست‌ها و همچنین ذخیره، لایک و دیسلایک پست‌ها است، همه این‌ها در یک طراحی کاملاً واکنش‌گرا که به‌صورت یکپارچه در تمام دستگاه‌ها کار می‌کند. این اپلیکیشن بر عملکرد، مقیاس‌پذیری و تجربه کاربری روان تمرکز دارد و آن را به یک پلتفرم قابل اعتماد برای تعاملات اجتماعی تبدیل می‌کند.',
     }, 
     {
         w_no:2,

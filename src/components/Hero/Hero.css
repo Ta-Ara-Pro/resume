@@ -20,6 +20,7 @@
     width: 70%;
     font-size: 90px;
     font-weight: 600;
+    text-shadow: 1px 2px 6px #b8b6b64b;
 }
 
 .Hero h1 span {
@@ -27,6 +28,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    /* text-shadow: 1px 2px 6px #B415FF; */
 }
 
 .Hero p {
@@ -34,6 +36,7 @@
     text-align: center;
     font-size: 24px;
     line-height: 40px;
+    text-shadow: 1px 2px 6px #b8b6b663;
 }
 
 .hero-action {
@@ -45,6 +48,18 @@
     margin-bottom: 50px;
 }
 
+.anchor-link {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s ease-in-out;
+}
+.anchor-link:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    color: inherit;
+    text-shadow: 2px 2px 8px #ffffff94;
+}
 .hero-action .hero-connet{
     background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
     padding: 20px 30px;

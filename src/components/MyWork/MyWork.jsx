@@ -7,12 +7,14 @@ import github from '../../assets/github.svg';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import Card from './Card';
+import { useSelector } from 'react-redux';
 
 const MyWork = ({data}) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedWork, setSelectedWork] = useState(null);
-  const { t, i18n } = useTranslation()
 
+  const { t, i18n } = useTranslation()
+const { limitedShowData } = useSelector((state) => state.data)
   // useEffect(() => {
   //   const language = i18n.language;
   //   const htmlElement = document.documentElement;
@@ -75,7 +77,7 @@ const MyWork = ({data}) => {
           </div>
         </div>
       )} */}
-      <Card data={data} />
+      <Card data={limitedShowData} />
       <Link to='/portfolio' style={{textDecoration:'none', color:'inherit'}}>
         <div className="mywork-showmore">
           <p>{t('Show More')}</p>

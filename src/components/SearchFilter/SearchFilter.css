@@ -26,12 +26,11 @@
 .filter-container {
     display: flex;
     flex-direction: column;
-   
     width: 100%;
     align-items: center;
 }
 .filter-container button {
-    font-family: Sahel;
+    font-family: inherit;
     border: none;
     color: white;
     border-radius: 10px;
@@ -54,7 +53,7 @@
 }
 .selectBox {
     display: flex;
-    width: 15%;
+    width: auto;
     position: relative;
     align-items: center;
 }
@@ -67,7 +66,7 @@
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
-    padding: 0.2rem 0.5rem;
+    padding: 0.5rem 1rem;
     transition: transform 0.3s ease-in-out;  
 }
 
@@ -80,7 +79,7 @@
     position: absolute;
     height: 240px;
     overflow-y: auto;
-    top: 2.2rem;
+    top: 2.7rem;
     background: white;
     border: 1px solid #ccc;
     border-radius: 15px;
@@ -89,9 +88,6 @@
     text-align: center;
     z-index: 100;
     padding: 1rem 1rem;
-    /* gap:1rem; */
-
-   
 
 
     /* Move it off-screen */
@@ -145,4 +141,24 @@
     /* border-bottom: 1px solid #ccc; */
     background: #bebebe;
     transition: background 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    
+    .selectBox {
+        font-size: 0.6rem;
+        padding: 8px 10px;
+        width: auto;
+        height: 1rem;
+    }
+    .filter-container button {
+     
+        font-size: 0.6rem;
+        padding: 8px 10px;
+    }
+    .container input {
+        padding: 0.6rem;
+        border-radius: 35px;
+        font-size: 16px;
+    }
 }

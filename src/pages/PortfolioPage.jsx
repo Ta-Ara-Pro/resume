@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import SearchFilterComponent from '../components/SearchFilter/SearchFilter'
 import { useSelector } from 'react-redux';
 import Card from '../components/MyWork/Card';
 
 const PortfolioPage = () => {
         const filteredData = useSelector((state) => state.data.filteredData);
+        
+        useEffect(() => {
+          window.scrollTo(0,0)
+        },[])
     
   return (
     <div 

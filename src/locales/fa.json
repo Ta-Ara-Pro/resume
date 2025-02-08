@@ -9,9 +9,9 @@
     "Persian": "فارسی",
 
     "I'm": "من",
-    "frontend developer based in Iran.": "توسعه‌دهنده فرانت‌اند ساکن در ایران.",
+    "frontend developer based in Iran.": "توسعه‌دهنده فرانت‌اند ساکن در ایران",
     "I am the dude who wants to act effective in a simple manner": "من کسی هستم که می‌خواهد به‌ شکل ساده ای مؤثر عمل کند",
-    "Connect With Me": "با من ارتباط بگیرید",
+    "Connect With Me": "ارتباط با من",
     "My Resume": "رزومه من",
 
     "About Me": "درباره من",
@@ -38,7 +38,7 @@
   "Frontend": "فرانت اند",
   "Dynamic and detail-oriented front-end developer with expertise in HTML, CSS, JavaScript, and responsive design. Adept at creating engaging, user-friendly interfaces and optimizing web performance. Committed to delivering high-quality code and innovative solutions to enhance user experience.": "توسعه‌دهنده دقیق و پویا در زمینه فرانت‌اند با تخصص در HTML، CSS، جاوااسکریپت و طراحی واکنش‌گرا. مهارت در ایجاد رابط‌های کاربری جذاب و آسان برای استفاده و بهینه‌سازی عملکرد وب. متعهد به ارائه کد با کیفیت بالا و راه‌حل‌های نوآورانه برای بهبود تجربه کاربری.",
   "Backend": "بک‌اند",
-  "Skilled and dedicated backend developer with proficiency in Java and RESTful APIs. Experienced in building robust, scalable server-side applications and ensuring seamless data integration. Passionate about optimizing performance and delivering reliable, high-quality solutions to support complex business needs.": "توسعه‌دهنده ماهر و متعهد در زمینه بک‌اند با تسلط بر جاوا و API‌های RESTful. تجربه در ساخت برنامه‌های مقیاس‌پذیر و قدرتمند سمت سرور و اطمینان از یکپارچگی داده‌ها. علاقه‌مند به بهینه‌سازی عملکرد و ارائه راه‌حل‌های قابل اعتماد و با کیفیت بالا برای پشتیبانی از نیازهای پیچیده کسب‌وکار.",
+  "Skilled and dedicated backend developer with proficiency in JavaScript and RESTful APIs. Experienced in building robust, scalable server-side applications and ensuring seamless data integration. Passionate about optimizing performance and delivering reliable, high-quality solutions to support complex business needs.": "توسعه‌دهنده ماهر و متعهد در زمینه بک‌اند با تسلط بر جاوااسکریپت و API‌های RESTful. تجربه در ساخت برنامه‌های مقیاس‌پذیر و قدرتمند سمت سرور و اطمینان از یکپارچگی داده‌ها. علاقه‌مند به بهینه‌سازی عملکرد و ارائه راه‌حل‌های قابل اعتماد و با کیفیت بالا برای پشتیبانی از نیازهای پیچیده کسب‌وکار.",
   "Social Media Application Development": "توسعه برنامه‌های شبکه اجتماعی",
   "Accomplished and creative developer with a strong background in building social media applications. Proficient in designing and implementing features that enhance user engagement and interaction. Experienced in leveraging modern frameworks and APIs to deliver seamless, scalable, and high-performance social networking solutions.": "توسعه‌دهنده موفق و خلاق با زمینه قوی در ساخت برنامه‌های شبکه اجتماعی. تسلط در طراحی و پیاده‌سازی ویژگی‌هایی که تعامل و جذب کاربران را افزایش می‌دهد. تجربه در استفاده از فریم‌ورک‌ها و API‌های مدرن برای ارائه راه‌حل‌های شبکه اجتماعی مقیاس‌پذیر و با عملکرد بالا.",
   "Dashboard Development": "توسعه داشبورد",
@@ -51,7 +51,7 @@
   "Review": "مرور پروژه",
   "Show More": "نمایش بیشتر",
 
-    "Using React with TypeScript improves type safety and code quality, while Vite offers fast development with instant hot module replacement. Tailwind CSS provides customizable styling, and Lucide React enhances UI with elegant icons. Appwrite simplifies backend tasks with ready-to-use APIs, and Zod ensures data integrity and type safety through schema validation.": "استفاده از React با TypeScript ایمنی نوعی را بهبود می‌بخشد و کیفیت کد را افزایش می‌دهد، در حالی که Vite توسعه سریع را با جایگزینی سریع ماژول‌ها ارائه می‌دهد. Tailwind CSS استایل‌های قابل تنظیم را فراهم می‌کند و Lucide React ظاهر رابط کاربری را با آیکون‌های زیبا بهبود می‌بخشد. Appwrite کارهای بک‌اند را با APIهای آماده ساده می‌کند و Zod با اعتبارسنجی شِما یکپارچگی داده‌ها و ایمنی نوعی را تضمین می‌کند.",
+    "This social media application is built using a modern tech stack including React, TypeScript, Vite, TailwindCSS, Lucide-react, Appwrite, and Zod to deliver a robust, responsive, and user-friendly experience. React combined with TypeScript enhances type safety and code quality, while Vite ensures fast development with its quick module replacement. TailwindCSS provides customizable and responsive styling, and Lucide-react enhances the UI with beautiful icons. Appwrite simplifies backend tasks with ready-to-use APIs, and Zod ensures data integrity and type safety through schema validation. Key features of the app include the ability to create, edit, and delete posts, as well as save, like, and dislike posts, all within a fully responsive design that works seamlessly across devices. The app prioritizes performance, scalability, and a smooth user experience, making it a reliable platform for social interactions.": " این اپلیکیشن شبکه‌اجتماعی با استفاده از فناوری‌های مدرن مانند React، TypeScript، Vite، TailwindCSS، Lucide-react، Appwrite و Zod ساخته شده است تا تجربه‌ای قدرتمند، واکنش‌گرا و کاربرپسند ارائه دهد. React همراه با TypeScript ایمنی نوعی و کیفیت کد را بهبود می‌بخشد، در حالی که Vite با جایگزینی سریع ماژول‌ها، توسعه سریع را ممکن می‌کند. TailwindCSS استایل‌های قابل تنظیم و واکنش‌گرا را فراهم می‌کند و Lucide-react با آیکون‌های زیبا رابط کاربری را بهبود می‌بخشد. Appwrite با استفاده از APIهای آماده، کارهای بک‌اند را ساده می‌کند و Zod از طریق اعتبارسنجی شِما، یکپارچگی داده‌ها و ایمنی نوعی را تضمین می‌کند. ویژگی‌های کلیدی این اپلیکیشن شامل امکان ایجاد، ویرایش و حذف پست‌ها و همچنین ذخیره، لایک و دیسلایک پست‌ها است، همه این‌ها در یک طراحی کاملاً واکنش‌گرا که به‌صورت یکپارچه در تمام دستگاه‌ها کار می‌کند. این اپلیکیشن بر عملکرد، مقیاس‌پذیری و تجربه کاربری روان تمرکز دارد و آن را به یک پلتفرم قابل اعتماد برای تعاملات اجتماعی تبدیل می‌کند.",
   
     "Using React and React DOM together allows for efficient and flexible component-based development. React Scripts simplifies the setup of a React application with a standard configuration, while Web Vitals helps measure and optimize performance. Emotion React and Emotion Styled provide powerful and flexible styling solutions with CSS-in-JS, enhancing the styling process. MUI (Material-UI) Icons and Material components offer a comprehensive set of customizable and accessible UI components and icons. React Icons provide a wide range of commonly used icons, making it easy to integrate visual elements into the application.": "استفاده از React و React DOM امکان توسعه مؤثر و انعطاف‌پذیر مبتنی بر کامپوننت را فراهم می‌کند. React Scripts راه‌اندازی برنامه React را با پیکربندی استاندارد ساده می‌کند، در حالی که Web Vitals به اندازه‌گیری و بهینه‌سازی عملکرد کمک می‌کند. Emotion React و Emotion Styled راهکارهای قدرتمند و انعطاف‌پذیر استایل‌دهی با CSS-in-JS را ارائه می‌دهند و فرایند طراحی را بهبود می‌بخشند. آیکون‌ها و کامپوننت‌های Material-UI مجموعه‌ای کامل از کامپوننت‌های UI سفارشی‌پذیر و دسترس‌پذیر را ارائه می‌دهند. React Icons مجموعه‌ای گسترده از آیکون‌های پرکاربرد را فراهم می‌کند و ادغام عناصر بصری در برنامه را آسان می‌کند.",
   
@@ -101,7 +101,11 @@
     "TA_ARA. All rights reserved.": "تمامی حقوق برای TA_ARA محفوظ است.",
     "Terms of Services": "شرایط خدمات",
     "Privacy Policy": "سیاست حفظ حریم خصوصی",
-    "Connect with me": "با من تماس بگیرید"
+    "Connect with me": "با من تماس بگیرید",
+
+
+    "Filters":"فیلتر ها",
+    "Reset":"حذف فیلترها"
   
 
   }

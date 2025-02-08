@@ -5,6 +5,7 @@
     justify-content: center;
     gap: 80px;
     margin: 80px 170px;
+    overflow-x: hidden;
 }
 .services-title{
     position: relative; 
@@ -31,12 +32,17 @@ border-radius: 10px;
 border: 2px solid white;
 transition: 0.4s;
 cursor: pointer;
+max-width: 250px;
 }
 .services-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 40px;
     margin-bottom: 80px;
+    transition: flex-wrap 0.4s ease-in-out;
 }
 .sevices-format h3{
     font-size: 25px;
@@ -96,7 +102,8 @@ cursor: pointer;
     }
 
     .services-container {
-        grid-template-columns: 1fr; /* Changed to single column layout */
+        /* grid-template-columns: 1fr;  */
+        display: flex;
         gap: 20px; /* Reduced gap */
         margin-bottom: 40px; /* Adjusted margin */
     }

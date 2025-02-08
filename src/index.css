@@ -24,9 +24,12 @@ body{
   height: 100vh;
   background: #50495c;
   color: rgb(231, 225, 236);
-  font-family: 'outfit';
+  /* font-family: 'outfit'; */
   overflow-x: hidden;
-  font-family: 'Sahel', sans-serif;
+  font-family: 'Sahel', 'outfit';
+}
+button {
+  font-family: 'Sahel', 'outfit';
 }
 
 html[dir="rtl"] {

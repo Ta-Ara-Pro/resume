@@ -5,6 +5,7 @@
     justify-content: center;
     gap: 50px;
     margin: 80px 170px;
+    overflow-x: hidden;
 }
 .mycollaboration-title {
     position: relative;

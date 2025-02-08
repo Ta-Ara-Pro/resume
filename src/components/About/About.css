@@ -5,6 +5,7 @@
     justify-content: center;
     gap: 80px;
     margin: 80px 170px;
+    /* overflow-x: hidden; */
 } 
 .about-title{
     position: relative;
@@ -70,6 +71,8 @@
     width: 100%;
     justify-content: space-around;
     margin-bottom: 80px;
+    /* background-color: #B415FF; */
+
 }
 .about-achievment{
     display: flex;
@@ -143,8 +146,8 @@
 .about-para,
 .about-skills,
 .about-achievments {
-    width: 100%; /* Adjusted width */
-    max-width: 600px; /* Added max-width */
+    width: 100%; 
+    max-width: 600px; 
 }
 
 .about-skill {
@@ -185,16 +188,16 @@
 .about-title img {
     position: absolute;
     bottom: 0;
-    right: -20px; /* Adjusted position */
-    width: 100px; /* Reduced width */
+    right: -20px; 
+    width: 100px; 
     z-index: -1;
 }
 
 .about-section {
     display: flex;
-    flex-direction: column; /* Changed to column layout on mobile */
+    flex-direction: column; 
     align-items: center;
-    gap: 40px; /* Adjusted gap */
+    gap: 40px; 
 }
 
 .about-left img {
@@ -203,12 +206,12 @@
     
 }
 
-.about-para,
+/* .about-para,
 .about-skills,
 .about-achievments {
-    width: 100%; /* Adjusted width */
-    max-width: 600px; /* Added max-width */
-}
+    width: 100%; 
+    max-width: 600px; 
+} */
 
 .about-skill {
     display: flex;
@@ -234,7 +237,7 @@
 
 .about-achievements {
     display: flex;
-    justify-content: flex-start; /* Align items to the left */
+    justify-content: flex-start; 
     width: 100%;
     margin-bottom: 80px;
 }
@@ -242,22 +245,22 @@
 .about-achievement {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align items to the left */
+    align-items: flex-start; 
     gap: 10px;
     transition: 0.5s;
-    padding: 20px; /* Added padding */
+    padding: 20px; 
     
 }
 
 
 .about-achievment h1 {
-    font-size: 40px; /* Reduced font size */
+    font-size: 40px; 
     font-weight: 700;
     color: linear-gradient(264deg, #DF8908 50.41%,#B415FF 90.25%);
 }
 
 .about-achievment p {
-    font-size: 18px; /* Reduced font size */
+    font-size: 18px; 
     font-weight: 500;
 }
 
@@ -272,16 +275,16 @@
     align-items: center;
     gap: 10px;
     transition: 0.5s;
-    padding: 20px; /* Added padding */
+    padding: 20px; 
 }
 
 .about-achievment h1 {
-    font-size: 40px; /* Reduced font size */
+    font-size: 40px; 
     font-weight: 700;
 }
 
 .about-achievment p {
-    font-size: 18px; /* Reduced font size */
+    font-size: 18px; 
     font-weight: 500;
 }
 
@@ -290,4 +293,12 @@
     transform: scale(1.05);
 }
 
+}
+
+@media(max-width:430px){
+    .about-para,
+    .about-skills,
+    .about-achievments {
+        width: 100%; flex-direction: column;
+    }
 }

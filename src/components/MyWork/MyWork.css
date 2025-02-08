@@ -5,6 +5,7 @@
     justify-content: center;
     gap: 80px;
     margin: 80px 170px;
+    /* overflow-x: hidden; */
 }
 .mywork-title {
     position: relative;
@@ -21,8 +22,11 @@
     z-index: -1; 
 }
 .mywork-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 40px;
 }
 .ima{
@@ -87,9 +91,9 @@ justify-content: center;
 }  
 
 /* Apply a larger font-weight when the language is Persian */
-.lang-persian .open-modal-button {
-    font-weight: 600; /* or any larger value */
-  }
+/* .lang-persian .open-modal-button {
+    font-weight: 600; 
+  } */
 
 
 
@@ -209,7 +213,7 @@ justify-content: center;
     }
 
     .mywork-container {
-        grid-template-columns: 1fr; /* Changed to single column layout */
+        /* grid-template-columns: 1fr;  */
         gap: 20px; /* Reduced gap */
     }
 

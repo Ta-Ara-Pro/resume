@@ -2,14 +2,16 @@
 .Hero {
     display: flex;
     align-items: center;
+    align-self: center;
     flex-direction: column;
     gap: 35px;
+    overflow-x: hidden;
 }
 
 .Hero img {
     margin-top: 150px;
     border-radius: 50%;
-    width: 300px; /* Adjust width for responsiveness */
+    width: 300px; 
     max-width: 100%; /* Ensure image doesn't exceed its container */
 }
 

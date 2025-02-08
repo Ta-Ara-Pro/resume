@@ -17,6 +17,7 @@ const mywork_data = [
         w_repo: 'https://github.com/Ta-Ara-Pro/Pro-Gram',
         w_desc:['React','TypeScript', 'vite', 'tailwindcss', 'lucide-react','appwrite', 'zod'],
         w_exp: 'Using React with TypeScript improves type safety and code quality, while Vite offers fast development with instant hot module replacement. Tailwind CSS provides customizable styling, and Lucide React enhances UI with elegant icons. Appwrite simplifies backend tasks with ready-to-use APIs, and Zod ensures data integrity and type safety through schema validation.'
+        ,w_exp_fa: 'استفاده از React با TypeScript ایمنی نوعی را بهبود می‌بخشد و کیفیت کد را افزایش می‌دهد، در حالی که Vite توسعه سریع را با جایگزینی سریع ماژول‌ها ارائه می‌دهد. Tailwind CSS استایل‌های قابل تنظیم را فراهم می‌کند و Lucide React ظاهر رابط کاربری را با آیکون‌های زیبا بهبود می‌بخشد. Appwrite کارهای بک‌اند را با APIهای آماده ساده می‌کند و Zod با اعتبارسنجی شِما یکپارچگی داده‌ها و ایمنی نوعی را تضمین می‌کند.',
     }, 
     {
         w_no:2,
@@ -26,6 +27,7 @@ const mywork_data = [
         w_repo: 'https://github.com/Ta-Ara-Pro/Pro-Gram',
         w_desc:['React','TypeScript', 'vite', 'tailwindcss', 'lucide-react','appwrite', 'zod'],
         w_exp: 'Using React with TypeScript improves type safety and code quality, while Vite offers fast development with instant hot module replacement. Tailwind CSS provides customizable styling, and Lucide React enhances UI with elegant icons. Appwrite simplifies backend tasks with ready-to-use APIs, and Zod ensures data integrity and type safety through schema validation.'
+        ,w_exp_fa: 'استفاده از React با TypeScript ایمنی نوعی را بهبود می‌بخشد و کیفیت کد را افزایش می‌دهد، در حالی که Vite توسعه سریع را با جایگزینی سریع ماژول‌ها ارائه می‌دهد. Tailwind CSS استایل‌های قابل تنظیم را فراهم می‌کند و Lucide React ظاهر رابط کاربری را با آیکون‌های زیبا بهبود می‌بخشد. Appwrite کارهای بک‌اند را با APIهای آماده ساده می‌کند و Zod با اعتبارسنجی شِما یکپارچگی داده‌ها و ایمنی نوعی را تضمین می‌کند.',
     },
     {
         w_no:3,
@@ -35,6 +37,7 @@ const mywork_data = [
         w_repo: ' https://github.com/Ta-Ara-Pro/Res-Landing',
         w_desc: ['React','JavaScript', 'MUI (Material-UI)', 'emotion/react','emotion/styled', 'react-icons', 'web-vitals'],
         w_exp: 'Using React and React DOM together allows for efficient and flexible component-based development. React Scripts simplifies the setup of a React application with a standard configuration, while Web Vitals helps measure and optimize performance. Emotion React and Emotion Styled provide powerful and flexible styling solutions with CSS-in-JS, enhancing the styling process. MUI (Material-UI) Icons and Material components offer a comprehensive set of customizable and accessible UI components and icons. React Icons provide a wide range of commonly used icons, making it easy to integrate visual elements into the application.'
+       ,w_exp_fa:"استفاده از React و React DOM امکان توسعه مؤثر و انعطاف‌پذیر مبتنی بر کامپوننت را فراهم می‌کند. React Scripts راه‌اندازی برنامه React را با پیکربندی استاندارد ساده می‌کند، در حالی که Web Vitals به اندازه‌گیری و بهینه‌سازی عملکرد کمک می‌کند. Emotion React و Emotion Styled راهکارهای قدرتمند و انعطاف‌پذیر استایل‌دهی با CSS-in-JS را ارائه می‌دهند و فرایند طراحی را بهبود می‌بخشند. آیکون‌ها و کامپوننت‌های Material-UI مجموعه‌ای کامل از کامپوننت‌های UI سفارشی‌پذیر و دسترس‌پذیر را ارائه می‌دهند. React Icons مجموعه‌ای گسترده از آیکون‌های پرکاربرد را فراهم می‌کند و ادغام عناصر بصری در برنامه را آسان می‌کند.",
     },
     {
         w_no:4,
@@ -44,6 +47,7 @@ const mywork_data = [
         w_repo: 'https://github.com/Ta-Ara-Pro/coding-website-Landing-page',
         w_desc:['React','JavaScript', 'vite', 'lucide-react', 'postcss','tailwindcss', '@types/react', 'autoprefixer'],
         w_exp: 'Using React and React DOM together allows for efficient and flexible component-based development. Lucide React enhances the UI with a collection of beautifully designed icons. TypeScript type definitions for React and React DOM provide type safety, improving code quality. Autoprefixer ensures CSS compatibility across different browsers by automatically adding vendor prefixes. PostCSS offers powerful CSS processing with JavaScript plugins, while Tailwind CSS provides a utility-first framework for highly customizable styling. Vite, a fast and modern build tool, enhances development with instant hot module replacement.'
+        ,w_exp_fa:"استفاده از React و React DOM امکان توسعه مؤثر و انعطاف‌پذیر مبتنی بر کامپوننت را فراهم می‌کند. React Scripts راه‌اندازی برنامه React را با پیکربندی استاندارد ساده می‌کند، در حالی که Web Vitals به اندازه‌گیری و بهینه‌سازی عملکرد کمک می‌کند. Emotion React و Emotion Styled راهکارهای قدرتمند و انعطاف‌پذیر استایل‌دهی با CSS-in-JS را ارائه می‌دهند و فرایند طراحی را بهبود می‌بخشند. آیکون‌ها و کامپوننت‌های Material-UI مجموعه‌ای کامل از کامپوننت‌های UI سفارشی‌پذیر و دسترس‌پذیر را ارائه می‌دهند. React Icons مجموعه‌ای گسترده از آیکون‌های پرکاربرد را فراهم می‌کند و ادغام عناصر بصری در برنامه را آسان می‌کند.",
     },
     {
         w_no:5,
@@ -53,7 +57,8 @@ const mywork_data = [
         w_repo: 'https://github.com/Ta-Ara-Pro/gym-landing',
         w_desc:['React','TypeScript', 'vite', 'tailwindcss', 'postcss','prettier', 'autoprefixer', 'framer-motion', 'react-anchor-link-smooth-scroll','types/react'],
         w_exp: 'Using React provides efficient and flexible component-based development. Framer Motion adds robust animation capabilities to React components, enabling smooth and complex animations. React Anchor Link Smooth Scroll facilitates smooth scrolling to anchors within the page, improving navigation. TypeScript type definitions for React and React Anchor Link Smooth Scroll ensure type safety and better development experience. Autoprefixer ensures CSS compatibility across different browsers by adding vendor prefixes. PostCSS provides powerful CSS processing with JavaScript plugins, while Tailwind CSS offers a utility-first framework for customizable styling. Prettier enforces consistent code formatting, improving code readability and maintainability. Vite, a fast and modern build tool, enhances development with instant hot module replacement.'
-
+       ,w_exp_fa: "استفاده از React توسعه مبتنی بر کامپوننت را به صورت کارآمد و انعطاف‌پذیر فراهم می‌کند. Framer Motion قابلیت‌های قدرتمند انیمیشن را به کامپوننت‌های React اضافه می‌کند. React Anchor Link Smooth Scroll امکان پیمایش نرم به بخش‌های مختلف صفحه را فراهم می‌کند. TypeScript ایمنی نوعی را تضمین کرده و تجربه توسعه را بهبود می‌بخشد. Vite، به عنوان یک ابزار مدرن و سریع، توسعه را با جایگزینی سریع ماژول‌ها تسهیل می‌کند.",
+  
     },
     {
         w_no:6,
@@ -63,6 +68,7 @@ const mywork_data = [
         w_repo: 'https://github.com/Ta-Ara-Pro/gym-landing',
         w_desc:['React','TypeScript', 'vite', 'tailwindcss', 'postcss','prettier', 'autoprefixer', 'framer-motion', 'react-anchor-link-smooth-scroll','types/react'],
         w_exp: 'Using React provides efficient and flexible component-based development. Framer Motion adds robust animation capabilities to React components, enabling smooth and complex animations. React Anchor Link Smooth Scroll facilitates smooth scrolling to anchors within the page, improving navigation. TypeScript type definitions for React and React Anchor Link Smooth Scroll ensure type safety and better development experience. Autoprefixer ensures CSS compatibility across different browsers by adding vendor prefixes. PostCSS provides powerful CSS processing with JavaScript plugins, while Tailwind CSS offers a utility-first framework for customizable styling. Prettier enforces consistent code formatting, improving code readability and maintainability. Vite, a fast and modern build tool, enhances development with instant hot module replacement.'
+        ,w_exp_fa: "استفاده از React توسعه مبتنی بر کامپوننت را به صورت کارآمد و انعطاف‌پذیر فراهم می‌کند. Framer Motion قابلیت‌های قدرتمند انیمیشن را به کامپوننت‌های React اضافه می‌کند. React Anchor Link Smooth Scroll امکان پیمایش نرم به بخش‌های مختلف صفحه را فراهم می‌کند. TypeScript ایمنی نوعی را تضمین کرده و تجربه توسعه را بهبود می‌بخشد. Vite، به عنوان یک ابزار مدرن و سریع، توسعه را با جایگزینی سریع ماژول‌ها تسهیل می‌کند.",
     },
 ]
  

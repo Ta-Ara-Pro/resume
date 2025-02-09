@@ -100,7 +100,7 @@ const mywork_data = [
         w_img:p10,
         w_web: 'https://tik-note-min1v1.vercel.app/',
         w_repo: 'https://github.com/Ta-Ara-Pro/min-1-notes-dash',
-        w_desc:['React', 'vite', 'Material-UI', 'react-hook-form', 'react-toastify','react-multi-date-picker','zustand'],
+        w_desc:['React', 'vite', 'Material-UI', 'mui/material', 'react-hook-form', 'react-toastify','react-multi-date-picker','zustand'],
         w_exp: 'This application is a practical tool for managing your personal notes, built with React, Vite, react-hook-form, react-toastify, react-multi-date-picker, and zustand, offering a seamless and responsive user experience. With this app, you can easily create, edit, save, and delete notes. Key features include user login for account management, local storage for data persistence without server connectivity, efficient note management for adding, editing, and deleting notes, advanced search to find notes by title or content, note filtering based on predefined options, and profile management to update usernames and passwords. This app makes organizing personal notes simpler and more efficient than ever.'
         ,w_exp_fa: "به یک صفحه لندینگ زیبا و پرسرعت خوش آمدید که با استفاده از React و Vite برای توسعه سریع و کارآمد ساخته شده است. با بهره‌گیری از TailwindCSS و PostCSS، طراحی آن تمیز، مدرن و کاملاً واکنش‌گرا است. این پروژه توانایی من در ایجاد برنامه‌های وب جذاب و کاربردی با عملکرد بهینه و تمرکز بر تجربه کاربری را به نمایش می‌گذارد.",
     },
